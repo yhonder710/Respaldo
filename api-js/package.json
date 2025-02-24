@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "sass": "^1.83.4"
+  },
+  "scripts": {
+    "watch-css": "sass --watch src --style compressed"
+  }
+}

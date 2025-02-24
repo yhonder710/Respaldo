@@ -1,0 +1,14 @@
+* {
+  padding: 3px;
+  margin: 0;
+}
+
+.container-name {
+  font-size: 2rem;
+}
+.price {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(17, 204, 17);
+}

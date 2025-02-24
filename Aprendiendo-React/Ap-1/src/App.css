@@ -1,0 +1,79 @@
+.tw-followCard {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 0.9rem;
+  border-radius: 25px;
+  justify-content: space-between;
+}
+
+.tw-followCard-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.tw-followCard-infor {
+  display: flex;
+  flex-direction: column;
+}
+
+.tw-followCard-email {
+  opacity: 0.6;
+}
+
+.tw-followCard-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 1000px;
+}
+
+.tw-followCard-btn {
+  font-size: 0.9rem;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.tw-followCard-btn.is-following {
+  border: 1px solid #bbb;
+  color: white;
+  background-color: transparent;
+  width: 140px;
+}
+
+.tw-followCard-btn.is-following:hover {
+  background-color: rgba(221, 26, 26, 0.204);
+  color: red;
+  border: 1px solid red;
+  transition: 0.4 ease all;
+}
+
+.tw-followCard-stopFollow {
+  display: none;
+}
+
+.tw-followCard-btn:hover {
+  opacity: 0.6;
+}
+
+.tw-followCard-text {
+  display: block;
+}
+
+.tw-followCard-btn.is-following:hover .tw-followCard-text {
+  display: none;
+}
+
+.tw-followCard-btn.is-following:hover .tw-followCard-stopFollow {
+  display: block;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
